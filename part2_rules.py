@@ -10,36 +10,50 @@ OUT_PATH    = Path("output/rulesClassified.csv")
 
 
 PHRASE_RULES = [
-    ("investment banking", "Investment Banking"),
-    ("capital markets", "Investment Banking"),
-    ("leveraged finance", "Investment Banking"),
-    ("m&a", "Investment Banking"),
+    # Customer Service / Branch overrides
+    ("customer service", "Customer Service / Branch"),
+    ("bank teller", "Customer Service / Branch"),
+    ("teller", "Customer Service / Branch"),
+    ("branch manager", "Customer Service / Branch"),
+    ("personal banker", "Customer Service / Branch"),
+    ("relationship banker", "Customer Service / Branch"),
+    ("personal banking", "Customer Service / Branch"),
 
-    ("equity research", "Research"),
-    ("credit research", "Research"),
+    # Wealth Management
+    ("private wealth", "Wealth Management"),
+    ("wealth management", "Wealth Management"),
+    ("private banker", "Wealth Management"),
+    ("financial advisor", "Wealth Management"),
+    ("registered representative", "Wealth Management"),
 
-    ("credit risk", "Risk"),
-    ("market risk", "Risk"),
-    ("model risk", "Risk"),
-    ("operational risk", "Risk"),
+    # Lending / Credit 
+    ("mortgage", "Lending / Credit"),
+    ("loan officer", "Lending / Credit"),
+    ("credit analyst", "Lending / Credit"),
 
+    # Compliance 
     ("anti money laundering", "Compliance/Legal"),
     ("aml", "Compliance/Legal"),
     ("kyc", "Compliance/Legal"),
-    ("compliance", "Compliance/Legal"),
+    ("sanctions", "Compliance/Legal"),
 
-    ("middle office", "Operations"),
-    ("back office", "Operations"),
-    ("trade support", "Operations"),
-    ("settlements", "Operations"),
-    ("reconciliation", "Operations"),
+    # S&T / Markets 
+    ("sales and trading", "Sales & Trading"),
+    ("equity derivatives", "Sales & Trading"),
+    ("fixed income", "Sales & Trading"),
 
+    # IB
+    ("investment banking", "Investment Banking"),
+    ("leveraged finance", "Investment Banking"),
+    ("capital markets", "Investment Banking"),
+    ("m&a", "Investment Banking"),
+    ("restructuring", "Investment Banking"),
+
+    # Tech 
     ("software engineer", "Technology"),
     ("software developer", "Technology"),
     ("information security", "Technology"),
 
-    ("financial advisor", "Wealth Management"),
-    ("private banker", "Wealth Management"),
 ]
 
 KEYWORD_RULES = {
