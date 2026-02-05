@@ -37,15 +37,3 @@ def make_validation_sample(df, n_per_dept=15, n_unknown=40, seed=7):
     val = pd.concat(pieces, ignore_index=True).sample(frac=1, random_state=seed)
     return val
 
-# Load Part 2 predictions
-def main():
-    df = pd.read_csv(PRED_PATH)
-
-    # quick safety check to make sure Part 2 produced the columns we expect
-    required = {"company", "title", "title_norm", "pred_dept", "pred_method"}
-    missing = required - set(df.columns)
-    if missing:
-        raise ValueError(
-            f"{PRED_PATH} is missing columns: {missing}. "
-            f"Found columns: {df.columns.tolist()}"
-        )
