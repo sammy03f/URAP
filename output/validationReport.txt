@@ -1,0 +1,43 @@
+Validation rows labeled: 220
+Overall accuracy: 0.3545
+
+Confusion matrix (counts):
+pred_dept           Compliance/Legal  Finance/Accounting  HR  Investment Banking  Operations  Product/Strategy  Research  Risk  Technology  Treasury
+manual_department                                                                                                                                   
+Compliance/Legal                   2                   0   0                   0           0                 0         0     0           0         0
+Finance/Accounting                 0                  14   0                   0           0                 0         0     0           0         0
+Investment Banking                 0                   0   0                   1           0                 0         0     0           0         0
+Operations                         0                   0   0                   0          14                 0         0     0           0         0
+Product/Strategy                   0                   0   0                   0           0                 7         0     0           0         0
+Research                           0                   0   0                   0           0                 0        15     0           0         0
+Risk                               0                   0   0                   0           0                 0         0    15           0         0
+Technology                         0                   0   0                   0           0                 0         0     0           1         0
+Treasury                           0                   0   1                   0           0                 0         0     0           0         9
+
+Sample misclassifications (up to 25):
+                               title          pred_dept manual_department pred_method      pred_evidence
+                   Financial Advisor  Wealth Management               NaN      phrase  financial advisor
+                    Treasury Analyst           Treasury               NaN     keyword           treasury
+            Associate Client Advisor  Wealth Management               NaN     keyword            advisor
+                       Sales Officer    Sales & Trading               NaN     keyword              sales
+                         Collector 2            Unknown               NaN        none                NaN
+                          File Clerk            Unknown               NaN        none                NaN
+            Senior Process Executive            Unknown               NaN        none                NaN
+  Chargée d'Affaires Cash Management           Treasury               NaN     keyword               cash
+                     Account Manager            Unknown               NaN        none                NaN
+                       Sales Manager    Sales & Trading               NaN     keyword              sales
+                      Branch Manager            Unknown               NaN        none                NaN
+                       Underwriter 4 Investment Banking               NaN     keyword        underwriter
+                        Legal Intern   Compliance/Legal               NaN     keyword              legal
+             Asst. Manager (Systems)         Technology               NaN     keyword            systems
+        Outside Sales Representative    Sales & Trading               NaN     keyword              sales
+                       CCC Sales Rep    Sales & Trading               NaN     keyword              sales
+Therapeutic Specialty Representative            Unknown               NaN        none                NaN
+ Private Wealth Management Associate  Wealth Management               NaN     keyword             wealth
+                Regulatory Reporting   Compliance/Legal               NaN     keyword         regulatory
+               Recruiting Specialist                 HR               NaN     keyword         recruiting
+          Investment Banking Analyst Investment Banking               NaN      phrase investment banking
+                    Treasury Analyst           Treasury               NaN     keyword           treasury
+                           Recruiter                 HR               NaN     keyword          recruiter
+Associate, Private Wealth Management  Wealth Management               NaN     keyword             wealth
+                               Sales    Sales & Trading               NaN     keyword              sales
