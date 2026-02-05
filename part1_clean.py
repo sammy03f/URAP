@@ -47,7 +47,7 @@ print("\nTop normalized titles:\n", df["title_norm"].value_counts().head(40))
 print("\nRandom sample (human inspection):")
 print(df.sample(30, random_state=7)[["company", "title", "count"]].to_string(index=False))
 
-# estimate prevalence of "seniority-only" titles (inherently ambiguous)
+# estimate prevalence of "seniority-only" titles
 seniority_only = (
     r"^(analyst|associate|vice president|vp|director|managing director|intern|"
     r"summer analyst|summer intern|executive director|assistant vice president|avp)$"

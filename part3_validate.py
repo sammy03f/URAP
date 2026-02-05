@@ -27,7 +27,7 @@ def make_validation_sample(df, n_per_dept=15, n_unknown=40, seed=7):
         k = min(n_per_dept, len(sub))
         pieces.append(sub.sample(k, random_state=seed))
 
-    # add extra Unknown rows (these are typically the hardest / most ambiguous cases)
+    # add extra Unknown rows 
     unk = df[df["pred_dept"] == "Unknown"]
     if len(unk) > 0:
         k = min(n_unknown, len(unk))
@@ -55,13 +55,13 @@ def main():
     if not VAL_PATH.exists():
         val = make_validation_sample(df, n_per_dept=15, n_unknown=40, seed=7)
 
-        # keep only the columns that are helpful for manual labeling + later evaluation
+        # keep only the columns that are helpful for manual labeling and later evaluation
         val = val[[
             "company", "title", "count", "title_norm",
             "pred_dept", "pred_method", "pred_evidence"
         ]].copy()
 
-        # blank label column (you fill this in manually)
+        # blank label column 
         val["manual_department"] = ""
 
         # make sure output folder exists
@@ -80,7 +80,7 @@ def main():
     if "manual_department" not in val.columns:
         raise ValueError("validationSample.csv must contain a manual_department column.")
 
-    # treat empty strings as missing labels (common if you haven't finished labeling)
+    # treat empty strings as missing labels
     val["manual_department"] = val["manual_department"].astype(str).str.strip()
     val = val[val["manual_department"] != ""].copy()
 
