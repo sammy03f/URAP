@@ -56,3 +56,28 @@ KEYWORD_RULES = {
     "Treasury": {"treasury", "liquidity", "cash"},
     "Product/Strategy": {"product", "strategy", "strategic"},
 }
+
+# classifying function for the most frequent uses
+def classify_rules(title_norm: str):
+    t = str(title_norm)
+
+    # phrase rules: first hit wins 
+    for phrase, dept in PHRASE_RULES:
+        if phrase in t:
+            return dept, "phrase", phrase
+
+    # keyword scoring: most freq. dept.
+    words = set(t.split())
+    best_dept, best_score, best_hits = "Unknown", 0, []
+
+    for dept, kws in KEYWORD_RULES.items():
+        hits = words.intersection(kws)
+        score = len(hits)
+        if score > best_score:
+            best_dept, best_score, best_hits = dept, score, sorted(hits)
+
+    if best_score > 0:
+        return best_dept, "keyword", ",".join(best_hits)
+
+    # incase of anything
+    return "Unknown", "none", ""
