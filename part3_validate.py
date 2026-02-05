@@ -74,3 +74,58 @@ def main():
         print("Next step: fill in manual_department for each row, then re-run this script.")
         print("Rows in validation sample:", len(val))
         return
+    
+    # fun 2: evaluate once I've labeled the validation file
+    val = pd.read_csv(VAL_PATH)
+
+    if "manual_department" not in val.columns:
+        raise ValueError("validationSample.csv must contain a manual_department column.")
+
+    # treat empty strings as missing labels (common if you haven't finished labeling)
+    val["manual_department"] = val["manual_department"].astype(str).str.strip()
+    val = val[val["manual_department"] != ""].copy()
+
+    # you want enough labeled rows for the accuracy to mean something
+    if len(val) < 50:
+        raise ValueError(
+            f"Only {len(val)} labeled validation rows found. "
+            "Label at least ~100 for a meaningful check."
+        )
+
+    # correctness = manual label matches model prediction
+    val["correct"] = (val["manual_department"] == val["pred_dept"])
+    acc = val["correct"].mean()
+
+    # confusion matrix (counts) for where the system mixes up departments
+    confusion = pd.crosstab(val["manual_department"], val["pred_dept"])
+
+    # collect misclassifications so we can inspect patterns and improve rules
+    errors = val[~val["correct"]].copy()
+
+    # Write a simple report we can paste into the write-up
+    lines = []
+    lines.append(f"Validation rows labeled: {len(val)}")
+    lines.append(f"Overall accuracy: {acc:.4f}")
+    lines.append("")
+    lines.append("Confusion matrix (counts):")
+    lines.append(confusion.to_string())
+    lines.append("")
+    lines.append("Sample misclassifications (up to 25):")
+
+    if len(errors) == 0:
+        lines.append("None (no errors in labeled sample).")
+    else:
+        show = errors[[
+            "title", "pred_dept", "manual_department", "pred_method", "pred_evidence"
+        ]].head(25)
+        lines.append(show.to_string(index=False))
+
+    REPORT_PATH.write_text("\n".join(lines))
+
+    print(f"Wrote report to {REPORT_PATH}")
+    print(f"Accuracy: {acc:.4f}")
+    print(f"Errors: {len(errors)} / {len(val)}")
+
+
+if __name__ == "__main__":
+    main()
