@@ -71,7 +71,6 @@ def main():
         val.to_csv(VAL_PATH, index=False)
 
         print(f"Created {VAL_PATH}.")
-        print("Next step: fill in manual_department for each row, then re-run this script.")
         print("Rows in validation sample:", len(val))
         return
     
