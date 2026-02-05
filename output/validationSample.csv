@@ -1,54 +1,54 @@
 company,title,count,title_norm,pred_dept,pred_method,pred_evidence,manual_department
-Oracle,Senior Applications Engineer,75,senior applications engineer,Technology,keyword,engineer,
-Bank of the Sierra,Operations Manager,23,operations manager,Operations,keyword,operations,
-JLL,Research Analyst,25,research analyst,Research,keyword,research,
-Sanofi,Financial Controller,15,financial controller,Finance/Accounting,keyword,controller,
-Prudential Financial,Senior Investment Operations Specialist,13,senior investment operations specialist,Operations,keyword,operations,
-Union Bank,Senior Underwriter,14,senior underwriter,Investment Banking,keyword,underwriter,
-University of Colorado Boulder,Research Assistant,17,research assistant,Research,keyword,research,
-TD,AML Compliance Officer,12,aml compliance officer,Compliance/Legal,phrase,aml,
-Goldman Sachs,Legal Counsel,26,legal counsel,Compliance/Legal,keyword,legal,
-U.S. Bank,Product Manager,72,product manager,Product/Strategy,keyword,product,
-GE,"Associate, Corporate Audit Staff",26,associate corporate audit staff,Finance/Accounting,keyword,audit,
-UCLA,Research Assistant,42,research assistant,Research,keyword,research,
-University of Illinois at Chicago,Undergraduate Research Assistant,21,undergraduate research assistant,Research,keyword,research,
-Chubb,Operations Analyst,13,operations analyst,Operations,keyword,operations,
-Deloitte,Cyber Risk Consultant,39,cyber risk consultant,Risk,keyword,risk,
+Oracle,Senior Applications Engineer,75,senior applications engineer,Technology,keyword,engineer, Technology
+Bank of the Sierra,Operations Manager,23,operations manager,Operations,keyword,operations, Operations
+JLL,Research Analyst,25,research analyst,Research,keyword,research, Research
+Sanofi,Financial Controller,15,financial controller,Finance/Accounting,keyword,controller, Finance/Accounting
+Prudential Financial,Senior Investment Operations Specialist,13,senior investment operations specialist,Operations,keyword,operations, Operations
+Union Bank,Senior Underwriter,14,senior underwriter,Investment Banking,keyword,underwriter, Investment Banking
+University of Colorado Boulder,Research Assistant,17,research assistant,Research,keyword,research, Research
+TD,AML Compliance Officer,12,aml compliance officer,Compliance/Legal,phrase,aml,Compliance/Legal
+Goldman Sachs,Legal Counsel,26,legal counsel,Compliance/Legal,keyword,legal,Compliance/Legal
+U.S. Bank,Product Manager,72,product manager,Product/Strategy,keyword,product,Product/Strategy
+GE,"Associate, Corporate Audit Staff",26,associate corporate audit staff,Finance/Accounting,keyword,audit,Finance/Accounting
+UCLA,Research Assistant,42,research assistant,Research,keyword,research,Research
+University of Illinois at Chicago,Undergraduate Research Assistant,21,undergraduate research assistant,Research,keyword,research,Research
+Chubb,Operations Analyst,13,operations analyst,Operations,keyword,operations,Operations
+Deloitte,Cyber Risk Consultant,39,cyber risk consultant,Risk,keyword,risk,Risk
 FTB Advisors,Financial Advisor,14,financial advisor,Wealth Management,phrase,financial advisor,
 Citi,Treasury Analyst,90,treasury analyst,Treasury,keyword,treasury,
 Bessemer Trust,Associate Client Advisor,124,associate client advisor,Wealth Management,keyword,advisor,
-Allstate,Senior Product Consultant,26,senior product consultant,Product/Strategy,keyword,product,
-Capital One Auto Finance,Risk Specialist,30,risk specialist,Risk,keyword,risk,
+Allstate,Senior Product Consultant,26,senior product consultant,Product/Strategy,keyword,product,Product/Strategy
+Capital One Auto Finance,Risk Specialist,30,risk specialist,Risk,keyword,risk,Risk
 Mars,Sales Officer,40,sales officer,Sales & Trading,keyword,sales,
 Citi,Collector 2,37,collector 2,Unknown,none,,
-USAA,"Director, Digital Product Management",13,director digital product management,Product/Strategy,keyword,product,
+USAA,"Director, Digital Product Management",13,director digital product management,Product/Strategy,keyword,product,Product/Strategy
 Farmers Insurance,File Clerk,17,file clerk,Unknown,none,,
-Citi,Risk Reporting Analyst,13,risk reporting analyst,Risk,keyword,risk,
-PNC,Treasury Management Analyst,89,treasury management analyst,Treasury,keyword,treasury,
+Citi,Risk Reporting Analyst,13,risk reporting analyst,Risk,keyword,risk,Risk
+PNC,Treasury Management Analyst,89,treasury management analyst,Treasury,keyword,treasury,Treasury
 Cognizant,Senior Process Executive,270,senior process executive,Unknown,none,,
 BNP Paribas,Chargée d'Affaires Cash Management,44,charg e d affaires cash management,Treasury,keyword,cash,
-"Indian institute of management, bangalore",Research assistant,14,research assistant,Research,keyword,research,
-Charles River Development,Product Specialist,24,product specialist,Product/Strategy,keyword,product,
+"Indian institute of management, bangalore",Research assistant,14,research assistant,Research,keyword,research,Research
+Charles River Development,Product Specialist,24,product specialist,Product/Strategy,keyword,product,Product/Strategy
 Microsoft,Account Manager,41,account manager,Unknown,none,,
-Universidad de Los Andes,Research Assistant,13,research assistant,Research,keyword,research,
-Citizens Bank,IT Operations Analyst,15,it operations analyst,Operations,keyword,operations,
+Universidad de Los Andes,Research Assistant,13,research assistant,Research,keyword,research,Research
+Citizens Bank,IT Operations Analyst,15,it operations analyst,Operations,keyword,operations,Operations
 USAA,Sales Manager,18,sales manager,Sales & Trading,keyword,sales,
-University of Glasgow,Research Assistant,18,research assistant,Research,keyword,research,
+University of Glasgow,Research Assistant,18,research assistant,Research,keyword,research,Research
 TEB,Branch Manager,21,branch manager,Unknown,none,,
-American Express,Senior Product Manager,162,senior product manager,Product/Strategy,keyword,product,
+American Express,Senior Product Manager,162,senior product manager,Product/Strategy,keyword,product,Product/Strategy
 Wells Fargo Home Mortgage,Underwriter 4,20,underwriter 4,Investment Banking,keyword,underwriter,
-U.S. Bank,Risk Manager,62,risk manager,Risk,keyword,risk,
+U.S. Bank,Risk Manager,62,risk manager,Risk,keyword,risk,Risk
 Citi,Legal Intern,56,legal intern,Compliance/Legal,keyword,legal,
-J.P. Morgan,Research Assistant,22,research assistant,Research,keyword,research,
+J.P. Morgan,Research Assistant,22,research assistant,Research,keyword,research,Research
 State Bank of India,Asst. Manager (Systems),13,asst manager systems,Technology,keyword,systems,
-Citi,Credit & Portfolio Risk Analyst,13,credit & portfolio risk analyst,Risk,keyword,risk,
+Citi,Credit & Portfolio Risk Analyst,13,credit & portfolio risk analyst,Risk,keyword,risk,Risk
 Fastenal Company,Outside Sales Representative,59,outside sales representative,Sales & Trading,keyword,sales,
 State Farm ®,CCC Sales Rep,17,ccc sales rep,Sales & Trading,keyword,sales,
 Pfizer,Therapeutic Specialty Representative,13,therapeutic specialty representative,Unknown,none,,
-American Express,Analista de Back Office,23,analista de back office,Operations,phrase,back office,
+American Express,Analista de Back Office,23,analista de back office,Operations,phrase,back office,Operations
 Goldman Sachs,Private Wealth Management Associate,18,private wealth management associate,Wealth Management,keyword,wealth,
 Deutsche Bank,Regulatory Reporting,14,regulatory reporting,Compliance/Legal,keyword,regulatory,
-KPMG,Senior Tax Accountant,16,senior tax accountant,Finance/Accounting,keyword,tax,
+KPMG,Senior Tax Accountant,16,senior tax accountant,Finance/Accounting,keyword,tax,Finance/Accounting
 HSBC,Recruiting Specialist,18,recruiting specialist,HR,keyword,recruiting,
 GCA,Investment Banking Analyst,15,investment banking analyst,Investment Banking,phrase,investment banking,
 East West Bank,Treasury Analyst,14,treasury analyst,Treasury,keyword,treasury,
@@ -60,15 +60,15 @@ MassMutual Financial Group,Compliance Consultant,20,compliance consultant,Compli
 Cellular Sales,Sales Representative,73,sales representative,Sales & Trading,keyword,sales,
 A Place for Mom,Senior Living Advisor,21,senior living advisor,Wealth Management,keyword,advisor,
 BNY Mellon,Software Engineer,126,software engineer,Technology,phrase,software engineer,
-Deloitte & Touche,Tax Consultant,22,tax consultant,Finance/Accounting,keyword,tax,
-Bank of America,Senior Audit Consultant,28,senior audit consultant,Finance/Accounting,keyword,audit,
+Deloitte & Touche,Tax Consultant,22,tax consultant,Finance/Accounting,keyword,tax,Finance/Accounting
+Bank of America,Senior Audit Consultant,28,senior audit consultant,Finance/Accounting,keyword,audit,Finance/Accounting
 Deutsche Bank,Client Services Account Manager,13,client services account manager,Unknown,none,,
 Citigroup,Trader,58,trader,Sales & Trading,keyword,trader,
-PricewaterhouseCoopers,Tax Senior Associate,16,tax senior associate,Finance/Accounting,keyword,tax,
-Capital Group,Research Associate,19,research associate,Research,keyword,research,
+PricewaterhouseCoopers,Tax Senior Associate,16,tax senior associate,Finance/Accounting,keyword,tax,Finance/Accounting
+Capital Group,Research Associate,19,research associate,Research,keyword,research,Research
 HSBC,UNDERWRITER,126,underwriter,Investment Banking,keyword,underwriter,
 UBS,Human Resources Specialist,22,human resources specialist,HR,keyword,"human,resources",
-Wells Fargo,Treasury Management Client Service Officer,14,treasury management client service officer,Treasury,keyword,treasury,
+Wells Fargo,Treasury Management Client Service Officer,14,treasury management client service officer,Treasury,keyword,treasury,Treasury
 Fiserv,Program Manager,44,program manager,Unknown,none,,
 PNC,Investment Banking Summer Analyst,34,investment banking summer analyst,Investment Banking,phrase,investment banking,
 UBS,Junior Analyst,28,junior analyst,Unknown,none,,
@@ -76,103 +76,103 @@ Citi,Cash Officer,27,cash officer,Treasury,keyword,cash,
 Freddie Mac,Business Analyst,79,business analyst,Unknown,none,,
 Thomas Cook,Travel Consultant,43,travel consultant,Unknown,none,,
 JPMorgan Chase & Co.,VP Software Engineering,42,vp software engineering,Technology,phrase,software engineer,
-TJ Maxx,Cash Office Associate,15,cash office associate,Treasury,keyword,cash,
-GE Capital,Risk Management Leadership Program,15,risk management leadership program,Risk,keyword,risk,
+TJ Maxx,Cash Office Associate,15,cash office associate,Treasury,keyword,cash,Treasury
+GE Capital,Risk Management Leadership Program,15,risk management leadership program,Risk,keyword,risk,Risk
 Bank of America,Treasury Solutions Officer,16,treasury solutions officer,Treasury,keyword,treasury,
-Bank of America,Contract Recruiter,20,contract recruiter,HR,keyword,recruiter,
+Bank of America,Contract Recruiter,20,contract recruiter,HR,keyword,recruiter,Treasury
 Starbucks,Business Analysis Manager,14,business analysis manager,Unknown,none,,
-Cognizant,Senior Product Specialist,12,senior product specialist,Product/Strategy,keyword,product,
+Cognizant,Senior Product Specialist,12,senior product specialist,Product/Strategy,keyword,product,Product/Strategy
 BNP Paribas,Klantenadviseur,26,klantenadviseur,Unknown,none,,
-GE Capital,Senior Credit Risk Analyst,17,senior credit risk analyst,Risk,phrase,credit risk,
+GE Capital,Senior Credit Risk Analyst,17,senior credit risk analyst,Risk,phrase,credit risk,Risk
 Chubb,Commercial Lines Underwriter,43,commercial lines underwriter,Investment Banking,keyword,underwriter,
 Citigroup,Sales and Trading Analyst,12,sales and trading analyst,Sales & Trading,keyword,"sales,trading",
 hsbc,aml investigations officer,55,aml investigations officer,Compliance/Legal,phrase,aml,
-American Express,Tax Intern,16,tax intern,Finance/Accounting,keyword,tax,
+American Express,Tax Intern,16,tax intern,Finance/Accounting,keyword,tax,Finance/Accounting
 We Can Code IT,Software Developer Apprentice,16,software developer apprentice,Technology,phrase,software developer,
 Northpointe Bank,Mortgage Banker,29,mortgage banker,Unknown,none,,
 Queen's University,Graduate Teaching Assistant,21,graduate teaching assistant,Unknown,none,,
-USAA,Senior Business Risk and Controls Advisor,19,senior business risk and controls advisor,Risk,keyword,risk,
-GE Capital,Strategic Initiatives Leader,20,strategic initiatives leader,Product/Strategy,keyword,strategic,
-"Ameriprise Financial Services, Inc.",Operations Analyst,14,operations analyst,Operations,keyword,operations,
-US Bank,Operations Specialist,67,operations specialist,Operations,keyword,operations,
-Deloitte & Touche LLP,Audit Senior,67,audit senior,Finance/Accounting,keyword,audit,
+USAA,Senior Business Risk and Controls Advisor,19,senior business risk and controls advisor,Risk,keyword,risk,Risk
+GE Capital,Strategic Initiatives Leader,20,strategic initiatives leader,Product/Strategy,keyword,strategic,Product/Strategy
+"Ameriprise Financial Services, Inc.",Operations Analyst,14,operations analyst,Operations,keyword,operations,Operations
+US Bank,Operations Specialist,67,operations specialist,Operations,keyword,operations,Operations
+Deloitte & Touche LLP,Audit Senior,67,audit senior,Finance/Accounting,keyword,audit,Finance/Accounting
 Novartis,Sales Consultant,29,sales consultant,Sales & Trading,keyword,sales,
 AIG,Talent Acquisition Specialist,24,talent acquisition specialist,HR,keyword,talent,
 goetzpartners,M&A Analyst,13,m&a analyst,Investment Banking,phrase,m&a,
 TIAA,Lead Project Manager,15,lead project manager,Unknown,none,,
 Verizon,Product Manager,12,product manager,Product/Strategy,keyword,product,
 Citibank,Compliance Officer,45,compliance officer,Compliance/Legal,phrase,compliance,
-Chase,Research Analyst,27,research analyst,Research,keyword,research,
+Chase,Research Analyst,27,research analyst,Research,keyword,research,Research
 JPMorgan Chase & Co.,User Experience Researcher,13,user experience researcher,Unknown,none,,
 Ericsson,Engineer,24,engineer,Technology,keyword,engineer,
-Sallie Mae,Operations Supervisor,16,operations supervisor,Operations,keyword,operations,
+Sallie Mae,Operations Supervisor,16,operations supervisor,Operations,keyword,operations,Operations
 US Bank,Trust Associate,12,trust associate,Unknown,none,,
 Credit Suisse,Technical Architect,27,technical architect,Unknown,none,,
 "Ameriprise Financial Services, Inc.",Senior Compliance Analyst,24,senior compliance analyst,Compliance/Legal,phrase,compliance,
-Scotiabank,Risk Analyst,13,risk analyst,Risk,keyword,risk,
+Scotiabank,Risk Analyst,13,risk analyst,Risk,keyword,risk,Risk
 HSBC,Mortgage Product Manager,15,mortgage product manager,Product/Strategy,keyword,product,
 Farmers Insurance,Training Manager,18,training manager,Unknown,none,,
 Fidelity Investments,Test Engineer,15,test engineer,Technology,keyword,engineer,
-KPMG,Federal Tax Intern,15,federal tax intern,Finance/Accounting,keyword,tax,
+KPMG,Federal Tax Intern,15,federal tax intern,Finance/Accounting,keyword,tax,Finance/Accounting
 JPMorgan Chase,Compliance Manager,47,compliance manager,Compliance/Legal,phrase,compliance,
 Morgan Stanley,Talent Acquisition Specialist,55,talent acquisition specialist,HR,keyword,talent,
 PNC Wealth Management,Associate Banking Advisor,16,associate banking advisor,Investment Banking,keyword,banking,
 HSBC,Product Control,26,product control,Product/Strategy,keyword,product,
 PHH Mortgage,Mortgage Advisor,110,mortgage advisor,Wealth Management,keyword,advisor,
-Credit Suisse,Operational Risk Manager,54,operational risk manager,Risk,phrase,operational risk,
+Credit Suisse,Operational Risk Manager,54,operational risk manager,Risk,phrase,operational risk,Risk
 Fenwick Limited,Sales Assistant,12,sales assistant,Sales & Trading,keyword,sales,
 Nomura Securities,Investment Banking Summer Analyst,15,investment banking summer analyst,Investment Banking,phrase,investment banking,
 Morgan Stanley,Sales,56,sales,Sales & Trading,keyword,sales,
-UBS,Equity Research Intern,108,equity research intern,Research,phrase,equity research,
+UBS,Equity Research Intern,108,equity research intern,Research,phrase,equity research,Research
 Bank of America Merrill Lynch,Financial Advisor Intern,51,financial advisor intern,Wealth Management,phrase,financial advisor,
 Mondo,Technical Recruiter,17,technical recruiter,HR,keyword,recruiter,
-CITIBANK,Treasury Analyst,21,treasury analyst,Treasury,keyword,treasury,
+CITIBANK,Treasury Analyst,21,treasury analyst,Treasury,keyword,treasury,Treasury
 KPMG,Advisory Manager,13,advisory manager,Investment Banking,keyword,advisory,
 Bank of America Merrill Lynch,Senior Financial Advisor,20,senior financial advisor,Wealth Management,phrase,financial advisor,
 TSB Bank,Senior Personal Banking Manager,27,senior personal banking manager,Investment Banking,keyword,banking,
 Evercore,Investment Banking Summer Associate,75,investment banking summer associate,Investment Banking,phrase,investment banking,
-Wells Fargo,Tax Accountant,45,tax accountant,Finance/Accounting,keyword,tax,
+Wells Fargo,Tax Accountant,45,tax accountant,Finance/Accounting,keyword,tax,Finance/Accounting
 Best Buy,Sales Support,17,sales support,Sales & Trading,keyword,sales,
 Raymond James,Senior Registered Client Service Associate,61,senior registered client service associate,Unknown,none,,
 Cisco Systems,Network Engineer,30,network engineer,Technology,keyword,engineer,
 HSBC,Product Owner,21,product owner,Product/Strategy,keyword,product,
 National Westminster Bank,Assistant Vice President,19,assistant vice president,Unknown,none,,
-State Farm ®,Risk Management Specialist,12,risk management specialist,Risk,keyword,risk,
+State Farm ®,Risk Management Specialist,12,risk management specialist,Risk,keyword,risk,Risk
 SunTrust Investment Services,Financial Advisor,97,financial advisor,Wealth Management,phrase,financial advisor,
 JPMorgan Chase & Co.,AML/KYC Officer,15,aml/kyc officer,Compliance/Legal,phrase,aml,
-KPMG,Assistant Audit Manager,29,assistant audit manager,Finance/Accounting,keyword,audit,
+KPMG,Assistant Audit Manager,29,assistant audit manager,Finance/Accounting,keyword,audit,Finance/Accounting
 AIG,Underwriting,28,underwriting,Investment Banking,keyword,underwriting,
 First Investors Financial Services,Registered Representative,14,registered representative,Unknown,none,,
-Bank of America,Risk Operations Unit Manager,16,risk operations unit manager,Risk,keyword,risk,
-Mars,Market Finance Manager,16,market finance manager,Finance/Accounting,keyword,finance,
+Bank of America,Risk Operations Unit Manager,16,risk operations unit manager,Risk,keyword,risk,Risk
+Mars,Market Finance Manager,16,market finance manager,Finance/Accounting,keyword,finance,Finance/Accounting
 Prudential Financial,Associate Systems Developer,20,associate systems developer,Technology,keyword,"developer,systems",
 Merrill Lynch,Advisor,13,advisor,Wealth Management,keyword,advisor,
 Barclays,Regional Sales Manager,23,regional sales manager,Sales & Trading,keyword,sales,
 Standard Chartered Bank,Senior Associate Director,29,senior associate director,Unknown,none,,
-"Wachovia, A Wells Fargo Company",Operations Manager,36,operations manager,Operations,keyword,operations,
+"Wachovia, A Wells Fargo Company",Operations Manager,36,operations manager,Operations,keyword,operations,Operations
 Chubb,Human Resources Manager,22,human resources manager,HR,keyword,"human,resources",
-Bank of America,Treasury Consultant,16,treasury consultant,Treasury,keyword,treasury,
+Bank of America,Treasury Consultant,16,treasury consultant,Treasury,keyword,treasury,Treasury
 Morgan Stanley,"Executive Director, Human Resources",27,executive director human resources,HR,keyword,"human,resources",
-Wells Fargo,Treasury Management Consultant,61,treasury management consultant,Treasury,keyword,treasury,
+Wells Fargo,Treasury Management Consultant,61,treasury management consultant,Treasury,keyword,treasury,Treasury
 Chubb,Branch Manager,59,branch manager,Unknown,none,,
-RBC,Treasury solutions specialist,22,treasury solutions specialist,Treasury,keyword,treasury,
+RBC,Treasury solutions specialist,22,treasury solutions specialist,Treasury,keyword,treasury,Treasury
 Prudential Financial,Vice President & Corporate Counsel,14,vice president & corporate counsel,Unknown,none,,
 "NorthStar Securities, LLC",Regional Sales Consultant,12,regional sales consultant,Sales & Trading,keyword,sales,
 Citi,Senior System Analyst,59,senior system analyst,Unknown,none,,
-"University of California, Berkeley",Undergraduate Research Assistant,17,undergraduate research assistant,Research,keyword,research,
+"University of California, Berkeley",Undergraduate Research Assistant,17,undergraduate research assistant,Research,keyword,research,Research
 Siemens Information Systems Ltd,Senior Systems Engineer,13,senior systems engineer,Technology,keyword,"engineer,systems",
 Mercer Advisors,Client Advisor,17,client advisor,Wealth Management,keyword,advisor,
 Nova Talent,Member,16,member,Unknown,none,,
 M&T Bank,Licensed Personal Banker,20,licensed personal banker,Unknown,none,,
-HSBC,Operations Support,12,operations support,Operations,keyword,operations,
+HSBC,Operations Support,12,operations support,Operations,keyword,operations,Operations
 PNC,Human Resources Intern,32,human resources intern,HR,keyword,"human,resources",
 Citizens bank,Aml analyst ii,12,aml analyst ii,Compliance/Legal,phrase,aml,
 Rutgers University,Part Time Lecturer,28,part time lecturer,Unknown,none,,
-Amazon,Operations Manager,135,operations manager,Operations,keyword,operations,
+Amazon,Operations Manager,135,operations manager,Operations,keyword,operations,Operations
 Countrywide,vice President,13,vice president,Unknown,none,,
-UBS,"Associate Director, Equity Research",17,associate director equity research,Research,phrase,equity research,
-Barclays Investment Bank,Treasury Analyst,23,treasury analyst,Treasury,keyword,treasury,
-BNP Paribas,Credit risk manager,14,credit risk manager,Risk,phrase,credit risk,
+UBS,"Associate Director, Equity Research",17,associate director equity research,Research,phrase,equity research,Research
+Barclays Investment Bank,Treasury Analyst,23,treasury analyst,Treasury,keyword,treasury,Treasury
+BNP Paribas,Credit risk manager,14,credit risk manager,Risk,phrase,credit risk,Risk
 Infinite Computer Solutions,Senior Software Engineer,23,senior software engineer,Technology,phrase,software engineer,
 CIBC,AML Analyst,21,aml analyst,Compliance/Legal,phrase,aml,
 Capital One,Senior Marketing Manager,15,senior marketing manager,Unknown,none,,
@@ -184,15 +184,15 @@ White & case llp,Legal assistant,17,legal assistant,Compliance/Legal,keyword,leg
 Aerotek,On Premise Recruiter,17,on premise recruiter,HR,keyword,recruiter,
 Capital One,Sr. Relationship Banker,16,sr relationship banker,Unknown,none,,
 Northwestern Mutual,Director of Recruiting and Development,38,director of recruiting and development,HR,keyword,recruiting,
-Bank of China,Risk Analyst Intern,16,risk analyst intern,Risk,keyword,risk,
+Bank of China,Risk Analyst Intern,16,risk analyst intern,Risk,keyword,risk,Risk
 Regions Bank,Administrative Assistant,57,administrative assistant,Unknown,none,,
 Fremont Investment & Loan,Account Executive,36,account executive,Unknown,none,,
 Citi,Treasury assistant,22,treasury assistant,Treasury,keyword,treasury,
 Auto-Owners Insurance,Commercial Lines Underwriter,52,commercial lines underwriter,Investment Banking,keyword,underwriter,
-Deutsche Bank,Trade Support Analyst,39,trade support analyst,Operations,phrase,trade support,
+Deutsche Bank,Trade Support Analyst,39,trade support analyst,Operations,phrase,trade support,Operations
 Wells Fargo Bank,Recruiter,32,recruiter,HR,keyword,recruiter,
 BMO Financial Group,Financial Service Manager,82,financial service manager,Unknown,none,,
-American Express,MBA Finance Intern,14,mba finance intern,Finance/Accounting,keyword,finance,
+American Express,MBA Finance Intern,14,mba finance intern,Finance/Accounting,keyword,finance,Finance/Accounting
 Citi,KYC Analyst,157,kyc analyst,Compliance/Legal,phrase,kyc,
 RBC,Banking Specialist,16,banking specialist,Investment Banking,keyword,banking,
 Instagram,Product Manager,17,product manager,Product/Strategy,keyword,product,
@@ -205,17 +205,17 @@ SEPHORA,Operations Consultant,29,operations consultant,Operations,keyword,operat
 Merrill Lynch,"Vice President, Wealth Management Banker",16,vice president wealth management banker,Wealth Management,keyword,wealth,
 Bank of America,Software Test Engineer,29,software test engineer,Technology,keyword,"engineer,software",
 AIG,Human Resources Generalist,20,human resources generalist,HR,keyword,"human,resources",
-Credit Suisse,Senior Credit Risk Analyst,34,senior credit risk analyst,Risk,phrase,credit risk,
+Credit Suisse,Senior Credit Risk Analyst,34,senior credit risk analyst,Risk,phrase,credit risk,Risk
 Wells Fargo Advisors,Product Manager,42,product manager,Product/Strategy,keyword,product,
-American Express,Senior Operations Manager,12,senior operations manager,Operations,keyword,operations,
-American Express,Director - Finance,31,director - finance,Finance/Accounting,keyword,finance,
+American Express,Senior Operations Manager,12,senior operations manager,Operations,keyword,operations,Operations
+American Express,Director - Finance,31,director - finance,Finance/Accounting,keyword,finance,Finance/Accounting
 UBS,Software Architect,18,software architect,Technology,keyword,software,
 Barclays Bank,Director,35,director,Unknown,none,,
-Hong Kong Baptist University,Research Assistant,17,research assistant,Research,keyword,research,
-The University of Texas at San Antonio,Research Assistant,32,research assistant,Research,keyword,research,
-Goldman Sachs,Corporate Treasury Analyst,23,corporate treasury analyst,Treasury,keyword,treasury,
+Hong Kong Baptist University,Research Assistant,17,research assistant,Research,keyword,research,Research
+The University of Texas at San Antonio,Research Assistant,32,research assistant,Research,keyword,research,Research
+Goldman Sachs,Corporate Treasury Analyst,23,corporate treasury analyst,Treasury,keyword,treasury,Treasury
 United Bank,Bank Teller,82,bank teller,Unknown,none,,
-Wells Fargo Insurance Services,Operations Accountant,20,operations accountant,Operations,keyword,operations,
+Wells Fargo Insurance Services,Operations Accountant,20,operations accountant,Operations,keyword,operations,Operations
 Sikich,Audit Intern,13,audit intern,Finance/Accounting,keyword,audit,
 Citibank,Bank Manager,16,bank manager,Unknown,none,,
 JP Morgan Chase Bank N.A.,Private Client Advisor,19,private client advisor,Wealth Management,keyword,advisor,
